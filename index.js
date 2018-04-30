@@ -1,4 +1,5 @@
 // Write your code in this file!
 let currentUser = "Michael";
-const welcomeMessage = "Welcome to Flatbook, " + currentUser + "!";
-const excitedWelcomeMessage = "WELCOME TO FLATBOOK, "
+cont greeting = "Welcome to Flatbook, "
+const welcomeMessage = greeting + currentUser + "!";
+const excitedWelcomeMessage = greeting.upcase
